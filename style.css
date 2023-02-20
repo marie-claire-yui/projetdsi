@@ -5,11 +5,11 @@
 }
 
 header{
-    height:70vw;
+    height:50vw;
 }
 
 body{
-    background-color: #d1d6da;
+    background-color: #585858;
 }
 
 .navbar{
@@ -69,8 +69,114 @@ h1{
     color: #fd8a69;
 }
 .banner img{
-    height:400px;
-    width:400px;
+    height:325px;
+    width:325px;
     width:90%;
     margin-top:5%;
 }
+
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    height:40vw;
+    text-transform: uppercase;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    line-height: 40px;
+}
+
+
+
+section .line1{
+    display:flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 35px;
+    
+}
+
+section .line1 .one{
+    background-color: #fd8a69;
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(106, 106, 106, .2);
+    height:200px;
+    width:200px;
+}
+section .line1 .two{
+    background-color: #11417D;
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(106, 106, 106, .2);
+    height:200px;
+    width:200px;
+}
+
+section .line1 .three{
+    background-color: #47A18B;
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(106, 106, 106, .2);
+    height:200px;
+    width:200px;
+}
+
+section .line1 .four{
+    background-color: #989999;
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(106, 106, 106, .2);
+    height:200px;
+    width:200px;
+}
+
+
+section .linemiddle{
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    height:150px;
+    width:80%;
+    color: #6C757D;
+    font-size:45px;
+    margin:auto;
+}
+
+
+section .line2{
+    display:flex;
+    justify-content: space-around;
+    color: white;
+    font-size:35px;
+}
+
+
+section .line2 .five{
+    background-color: #11417D;
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(106, 106, 106, .2);
+    height:200px;
+    width:200px;
+}
+section .line2 .six{
+    background-color: #989999;
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(106, 106, 106, .2);
+    height:200px;
+    width:200px;
+}
+
+section .line2 .seven{
+    background-color: #fd8a69;
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(106, 106, 106, .2);
+    height:200px;
+    width:200px;
+}
+
+section .line2 .eight{
+    background-color: #47A18B;
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(106, 106, 106, .2);
+    height:200px;
+    width:200px;
+}
+
