@@ -280,11 +280,28 @@ width:200px;
 footer #footerBg{
     display:flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    color: #fafafa;
     height:30vw;
     width: 100%;
     background: linear-gradient(90deg, rgba(255,255,255,1) 7%, rgba(17,65,125,1) 100%);
 }
+
+footer h2{
+    font-size:20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom:20px;
+}
+
+footer p{
+    margin-bottom:20px;
+}
+
+footer #left p a{
+    color: #fafafa;
+}
+
 
 footer hr{
     height:200px;
@@ -301,4 +318,29 @@ footer #social .social{
         text-align: center;
         display:inline-block;
         padding: 4px 0;
+}
+
+form{
+    background-color:#11417D;
+    box-shadow: 6px 6px 2px 1px rgba(234, 95, 26, 0.4);
+    height:auto;
+    width:200px;
+
+}
+form fieldset {
+    border:0;
+}
+
+form fieldset p{
+    margin:15px;
+}
+
+form fieldset button{
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    margin-bottom:15px;
+    width:85%;
+    background-color: #fd8a69;
+    border-radius:5px;
 }
