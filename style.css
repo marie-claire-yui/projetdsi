@@ -415,9 +415,11 @@ form fieldset button input{
     .section1 .line1, .section1 .line2{
         display:block;
     }
+
    
     footer #footerBg{
         display:block;
+        justify-content: bcenter;
     }
 
 }
@@ -432,24 +434,5 @@ form fieldset button input{
         color: #fafafa;
     }
 
-
-    /* .banner{
-        display:block;
-        height:100vw;
-    }
-
-    .section1{
-        display:block;
-    }
-    .section1 .line1{
-        display:block;
-    }
-    .section1 .line2{
-        display:block;
-    }
-
-    .section2 {
-        display:block;
-    } */
 
 }
