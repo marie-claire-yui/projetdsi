@@ -5,11 +5,13 @@
 }
 
 header{
-    height:50vw;
+    /* height:50vw; */
+    height:fit-content;
 }
 
 body{
     background-color: #D2DBE2;
+    height:auto;
 }
 
 .navbar{
@@ -400,20 +402,21 @@ form fieldset button input{
 
 
 @media screen and (max-width:1000px){
-    .banner{
-        display:block;
+    .header{
         height:auto;
     }
 
-    .section1{
-        min-height: 300vw;
+    .banner{
+        display:block;
+
     }
-    .section1 .line1{
-        display:block
-    }
-    .section1 .line1{
+
+    
+    .section1 .line1, .section1 .line2{
         display:block;
     }
+   
+
 }
 
 @media screen and (max-width:360px){
