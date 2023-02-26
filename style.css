@@ -428,6 +428,11 @@ form fieldset button input{
         display:none;
     }
 
+    footer #right{
+        display:flex;
+        align-items: center;
+        margin:auto;
+    }
 
     .desktop {
         display: none;
