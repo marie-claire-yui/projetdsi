@@ -274,8 +274,8 @@ width:200px;
 }
 
 .section2 .radial #image1 img,.section2 .radial #image2 img,.section2 .radial #image3 img,.section2 .radial #image4 img,.section2 .radial #image5 img,.section2 .radial #image6 img{
-    height:120px;
-    width:120px;
+    height:15vw;
+    width:15vw;
 }
 
 
@@ -401,7 +401,8 @@ form fieldset button input{
 }
 
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:600px){
+
     .header{
         height:auto;
     }
@@ -421,10 +422,6 @@ form fieldset button input{
         display:block;
         justify-content: bcenter;
     }
-
-}
-
-@media screen and (max-width:360px){
     .desktop {
         display: none;
       }
@@ -433,6 +430,10 @@ form fieldset button input{
         display: block;
         color: #fafafa;
     }
+
+}
+
+@media screen and (max-width:360px){
 
 
 }
