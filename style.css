@@ -282,7 +282,7 @@ width:200px;
 footer #footerBg{
     display:flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: #fafafa;
     /* height:30vw; */
     width: 100%;
@@ -421,8 +421,14 @@ form fieldset button input{
    
     footer #footerBg{
         display:block;
-        justify-content: bcenter;
+        text-align:center;
     }
+
+    footer hr{
+        display:none;
+    }
+
+
     .desktop {
         display: none;
       }
