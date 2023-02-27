@@ -283,8 +283,8 @@ width:200px;
 }
 
 .section2 .radial #image1 img,.section2 .radial #image2 img,.section2 .radial #image3 img,.section2 .radial #image4 img,.section2 .radial #image5 img,.section2 .radial #image6 img{
-    height:15vw;
-    width:15vw;
+    height:10vw;
+    width:10vw;
 }
 
 
@@ -294,7 +294,7 @@ footer #footerBg{
     align-items: center;
     justify-content: space-evenly;
     color: #fafafa;
-    /* height:30vw; */
+    height:30vw;
     width: 100%;
     background: linear-gradient(90deg, rgba(152,153,153,1) 7%, rgba(17,65,125,1) 100%);
 }
@@ -423,7 +423,6 @@ form fieldset #button{
 
     .banner{
         display:block;
-
     }
 
     
@@ -435,6 +434,8 @@ form fieldset #button{
     footer #footerBg{
         display:block;
         text-align:center;
+        min-height: 120vw;
+        align-items: center;
     }
 
     footer hr{
@@ -464,4 +465,7 @@ form fieldset #button{
        .section1 .linemiddle{order: 1;}
        .section1 .line2{order: 3;}
 
+       /* footer #footerBg{
+        min-height:180vw;
+       } */
 }
