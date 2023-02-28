@@ -12,6 +12,7 @@ header{
 body{
     background-color: #D2DBE2;
     height:auto;
+    font-family:'roboto',serif;
 }
 
 .navbar{
@@ -62,6 +63,7 @@ h1{
     font-size: 45px;
     margin-bottom:5%;
     text-align: center;
+    font-family:'audiowide','cursive', serif;
 }
 
 .banner .intro p{
