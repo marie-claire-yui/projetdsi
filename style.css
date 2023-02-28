@@ -64,6 +64,8 @@ h1{
     margin-bottom:5%;
     text-align: center;
     font-family:'audiowide','cursive', serif;
+    font-weight:bolder;
+    color:#fafafa;
 }
 
 .banner .intro p{
@@ -231,7 +233,6 @@ h1{
 }
 
 .section2 .radial{
-    display:flex;
     margin-left: auto;
     margin-right: auto;
     /* height:30vw; */
@@ -269,7 +270,9 @@ width:200px;
     display:inline-flex;
     text-align: center;
     align-items: center;
+    padding:2vw;
     width: 200px;
+
 }
 
 .section2 .radial span{
@@ -436,7 +439,6 @@ form fieldset #button{
         display:block;
     }
 
-    /* .section1 { display: flex; flex-direction: column;  } */
     .line1{order: 2;}
     .linemiddle{order: 1;}
     .line2{order: 3;}
@@ -450,9 +452,24 @@ form fieldset #button{
     font-size:35px;
    }
 .section2 .radial{
-    min-height:120vw;
+    min-height:140vw;
+    display:block;
+    flex-direction: column;
+    text-align: center;
 }
 
+.section2 .radial p{
+    font-size:20px;;
+}
+
+.section2 .radial #ligne1{
+    display:inline-block;
+    text-align: center;
+}
+
+#imageCamembert{order: 2;}
+#ligne1{order: 1;}
+#ligne2{order: 3;}
 
     footer #footerBg{
         display:block;
