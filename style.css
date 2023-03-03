@@ -428,6 +428,16 @@ form fieldset #button{
 
 @media screen and (max-width:600px){
 
+    .logo img{
+        height:80px;
+        width:80px;
+    }
+
+#reunion img{
+    height:250px;
+    width:250px;
+}
+
     .header{
         height:auto;
     }
@@ -436,21 +446,22 @@ form fieldset #button{
         display:block;
     }
 
-    
+    .banner .intro {
+        width:100%;
+    }
 .section1{
     margin:30px;
 }
 
     .section1 .line1, .section1 .line2{
-        display:block;
+        /* display:block; */
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         /* grid-gap:3px; */
         grid-column-gap: 5px;
-        grid-row-gap:30px; 
+        grid-row-gap:5px; 
         justify-items:center; 
-        height:100vw;
     }
 
     .line1{order: 2;}
@@ -462,6 +473,15 @@ form fieldset #button{
         width:150px;
         font-size:20px;
        }
+
+    .section1 .line1 .two, .section1 .line1 .four{
+        margin-top:30px;
+    }
+
+    .section1 .line2 .five, .section1 .line2 .seven{
+        margin-top:30px;
+    }
+
    .section1 .linemiddle{
     font-size:35px;
    }
@@ -533,7 +553,6 @@ form fieldset #button{
 }
 
 @media screen and (max-width:360px){ 
-    
        /* footer #footerBg{
         min-height:180vw;
        } */
@@ -541,5 +560,4 @@ form fieldset #button{
         height:100px;
         width:100px;
        } */
-
 }
