@@ -443,6 +443,13 @@ form fieldset #button{
 
     .section1 .line1, .section1 .line2{
         display:block;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        /* grid-gap:3px; */
+        grid-column-gap: 5px;
+        grid-row-gap:30px; 
+        justify-items:center; 
     }
 
     .line1{order: 2;}
